@@ -39,5 +39,5 @@ void loop() {                                             // Main infinite loop
     myservo.write(pos);                                   // Tell servo to go to position in variable 'pos'
     delay(10);                                            // Waits 10ms for the servo to reach the position
   }
-  myStepper.step(stepsPerRevolution);                     Stepper motor rotates one revolution
+  myStepper.step(stepsPerRevolution);                     //Stepper motor rotates one revolution
 }
